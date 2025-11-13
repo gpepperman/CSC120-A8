@@ -1,4 +1,7 @@
 Use this file to record your reflection on this assignment.
 
 - Which methods did you decide to `overload`, and why?
+I decided to overload the constructors. When using my code, I thought it would be most useful to be able to construct a house without an adress or without an elevator boolean because I often do not know that information. I used this same thought when overloading the constructors for Library. For Cafe I overloaded my constructors to be able to construct a cafe without inventory, since it was tedious to type in all of the inventory. I also overloaded my Cafe constructor to be able to construct a cafe without floor numbers, since all cafes on campus are only one floor.
+
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+I has some issues when overloading my constructors, as the program wasn't able to distinguish between two constructors with the same number of parameters and same order of data type. This limited what attributes I removed from some constructors when overloading. I also has some issues when adding students into houses in CampusMap, as the program wasn't allowing me to create students. However, I then realized that I was having that issue because the class "course" wasn't in this folder. Since there are so many different methods and classes, even though it is tedious, I would recommend future students try to test all of the methods in as many ways as possible.
